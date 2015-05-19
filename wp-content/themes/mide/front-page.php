@@ -24,28 +24,7 @@ Template Name: Home
 		</header>
 
 	
-		<div id="quotediv">
-			<q id="myquote">“Uma máquina pode fazer o trabalho de cinquenta pessoas comuns,<br> mas nenhuma máquina o poderá fazer como uma pessoa extraordinária”</q>
-			<p id="autor"> Elbert Hubbard </p>
-		</div>
-
-		<div id="slogandiv">
-			<p id="slogan">Nós podemos mostrar-lhe o caminho</p>
-		</div>
-
-		<div class="formdiv">
-			<?php
-				$widgetNL = new WYSIJA_NL_Widget(true);
-				echo $widgetNL->widget(array('form' => 1, 'form_type' => 'php'));
-			?>
-			<div class="clear"></div>
-		</div>
 		
-		<div class="botdiv">
-			<p id="newsletter" class="bot">Tenha acesso à nossa newsletter</p>
-			<p id="hello" class="bot">Ou contacte-nos: hello@wpbox.io</p>
-			<img src="<?php bloginfo('template_directory'); ?>/images/box.png" alt="<?php bloginfo('name'); ?>" id="box"/>
-		</div>
 		
 
 
