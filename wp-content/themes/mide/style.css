@@ -23,31 +23,56 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 /*--------------------------------------------------------------
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
-# Normalize
-# Typography
-# Elements
-# Forms
-# Navigation
-	## Links
-	## Menus
-# Accessibility
-# Alignments
-# Clearings
-# Widgets
-# Content
-    ## Posts and pages
-	## Asides
-	## Comments
-# Infinite scroll
-# Media
-	## Captions
-	## Galleries
+	01. General
+	02. header
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
-# Normalize
+# 01. General
 --------------------------------------------------------------*/
 
-#logodiv {
+html{
+	font-family: 'Open Sans', sans-serif;
+	}
+
+/*--------------------------------------------------------------
+# 02. header
+--------------------------------------------------------------*/
+
+.headerbg {
 	background: #454545;
+	color: #fff;
+	font-size: 0.7em;
+}
+
+#bardiv { 
+	background: #454545;
+	background-repeat: repeat;
+	background-image: url("images/headerbg.png");
+	height: 8px;
+}
+
+.logo { 
+	padding: 35px 0 0 0;
+}
+
+.rowhead {
+	padding: 45px 0 35px 0;
+}
+
+.maincontact {
+	margin: 0 0 1px 0;
+}
+
+.contactheader {
+	color: #999999;
+}
+
+.twittericon {
+	padding: 4px;
+}
+
+.navbar {
+	background: #F5F5F5;
+	margin-top: 8px;
 }
