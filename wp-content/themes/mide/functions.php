@@ -88,6 +88,8 @@ add_action( 'after_setup_theme', 'mide_content_width', 0 );
  *
  * @link http://codex.wordpress.org/Function_Reference/register_sidebar
  */
+
+	
 function mide_widgets_init() {
 	register_sidebar( array(
 		'name'          => esc_html__( 'Sidebar', 'mide' ),
@@ -105,6 +107,11 @@ add_action( 'widgets_init', 'mide_widgets_init' );
  * Enqueue scripts and styles.
  */
 function mide_scripts() {
+	wp_enqueue_style( 'bootstrap', get_template_directory_uri() . '/bootstrap/css/bootstrap.min.css');
+    
+	wp_enqueue_script( 'bootstrap-js', get_template_directory_uri() . '/bootstrap/js/bootstrap.min.js', array('jquery'), '', true );
+    
+
 	wp_enqueue_style( 'mide-style', get_stylesheet_uri() );
 
 	wp_enqueue_script( 'mide-navigation', get_template_directory_uri() . '/js/navigation.js', array(), '20120206', true );
