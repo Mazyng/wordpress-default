@@ -39,7 +39,7 @@
                             <img src="images/phone.png">
                         </div>
 
-                        <div class="col-md-3">
+                        <div class="col-md-3 borderdiv maildiv">
                             <p class="maincontact">00 351 234 185 205</p>
                             <p class="contactheader">mide@mide.pt</p>
                         </div>
@@ -49,7 +49,7 @@
                         </div>
 
        
-                        <div class="col-md-5">
+                        <div class="col-md-5 borderdiv streetdiv">
                             <p class="maincontact">Rua da Escola 71-A</p>
                             <p class="contactheader">3830-470 Gafanha da Encarnação</p>
                         </div>
@@ -83,19 +83,19 @@
           <!-- Wrapper for slides -->
           <div class="carousel-inner">
             <div class="item active">
-              <img src="images/slide.jpg" alt="...">
+              <img src="images/reunion.jpg" alt="...">
               <div class="carousel-caption">
                   <h3>Caption Text</h3>
               </div>
             </div>
             <div class="item">
-              <img src="http://placehold.it/1200x315" alt="...">
+              <img src="images/leafs.jpg" alt="...">
               <div class="carousel-caption">
                   <h3>Caption Text</h3>
               </div>
             </div>
             <div class="item">
-              <img src="http://placehold.it/1200x315" alt="...">
+              <img src="images/city.jpg" alt="...">
               <div class="carousel-caption">
                   <h3>Caption Text</h3>
               </div>
@@ -112,9 +112,64 @@
         </div> <!-- Carousel -->
 
 </div>
+<!--Header End-->
+
+<div class="messagebg">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8">
+        <p>Deseja obter informações mais especificas quanto ao que podemos fazer por si?</p>
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-default mybtn1 mybtn">CONTACTE-NOS</button>
+      </div>
+      <div class="col-md-2">
+        <button type="button" class="btn btn-default mybtn2 mybtn">LEIA SOBRE NÓS</button>
+      </div>
+    </div>
+  </div>
+</div>
 
 
+<div class="infobg">
+  <div class="container">
+    <div class="row">
 
+      <div class="col-md-4">
+        <img src="images/wind.jpg" alt="...">
+          <div class="row">
+            <div class="col-md-12">
+              <h3>ENERGIAS RENOVÁVEIS</h3>
+              <p>A energia fotovoltaíca é uma das energias mais promissoras das energias renováveis. Este tipo de energia não produz gases de combustão e ruídos.</p>
+              <a href="url">link text</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="images/wind.jpg" alt="...">
+        <div class="row">
+            <div class="col-md-12">
+              <h3>ENERGIAS RENOVÁVEIS</h3>
+              <p>A energia fotovoltaíca é uma das energias mais promissoras das energias renováveis. Este tipo de energia não produz gases de combustão e ruídos.</p>
+              <a href="url">link text</a>
+            </div>
+          </div>
+      </div>
+
+      <div class="col-md-4">
+        <img src="images/wind.jpg" alt="...">
+        <div class="row">
+            <div class="col-md-12">
+              <h3>ENERGIAS RENOVÁVEIS</h3>
+              <p>A energia fotovoltaíca é uma das energias mais promissoras das energias renováveis. Este tipo de energia não produz gases de combustão e ruídos.</p>
+              <a href="url">link text</a>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</div>
 
 </body>
 

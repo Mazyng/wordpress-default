@@ -24,7 +24,9 @@ Nicolas Gallagher and Jonathan Neal http://necolas.github.com/normalize.css/
 >>> TABLE OF CONTENTS:
 ----------------------------------------------------------------
 	01. General
-	02. header
+	02. Header
+	03. Message Contact
+	04. Services
 --------------------------------------------------------------*/
 
 /*--------------------------------------------------------------
@@ -36,7 +38,7 @@ html{
 	}
 
 /*--------------------------------------------------------------
-# 02. header
+# 02. Header
 --------------------------------------------------------------*/
 
 .headerbg {
@@ -75,4 +77,86 @@ html{
 .navbar {
 	background: #F5F5F5;
 	margin-top: 8px;
+	margin-bottom: 0;
+	min-height: 75px;
 }
+
+.borderdiv {
+	border-right:  1px solid #C6C6C5;
+}
+
+.maildiv {
+	
+}
+
+.streetdiv {
+
+}
+
+
+/*--------------------------------------------------------------
+# 03. Message Contact
+--------------------------------------------------------------*/
+
+.messagebg {
+	background: #EEEEEE;  
+	font-size: 1.5em;
+  	font-weight: 100;
+  	color: #999999;
+  	min-height: 65px;
+  	padding-top: 2%;
+  	padding-bottom: 1%;
+}
+
+.btn {
+    padding: 14px 24px;
+    border: 0 none;
+    font-weight: 700;
+    letter-spacing: 0px;
+    text-transform: uppercase;
+}
+ 
+.btn:focus, .btn:active:focus, .btn.active:focus {
+    outline: 0 none;
+}
+ 
+.btn-primary {
+    background: #0099cc;
+    color: #ffffff;
+}
+ 
+.btn-primary:hover, .btn-primary:focus, .btn-primary:active, .btn-primary.active, .open > .dropdown-toggle.btn-primary {
+    background: #33a6cc;
+}
+ 
+.btn-primary:active, .btn-primary.active {
+    background: #007299;
+    box-shadow: none;
+}
+
+.mybtn{
+	font-weight: 800;
+}
+
+.mybtn1 {
+	background: #FAC701;
+	color: #333333;
+}
+
+.mybtn2 {
+	background: #EEEEEE;
+	border: 1pt solid #999999;
+	color: #999999;
+}
+
+
+/*--------------------------------------------------------------
+# 04. Services
+--------------------------------------------------------------*/
+
+.infobg {
+	margin-top: 5%;
+}
+
+
+
